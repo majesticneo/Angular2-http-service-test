@@ -1,0 +1,11 @@
+<div>
+  <h4>movie.component</h4><br>
+  <h5>Ci-dessous liste des users provenant du site JSON PLaceholder</h5><br>
+  <a href="http://jsonplaceholder.typicode.com/">lien vers le site ici</a>
+</div>
+
+
+  <ul>
+    <li *ngFor="let usr of users">{{usr.name}} ({{usr.email}})</li>
+  </ul>
+
